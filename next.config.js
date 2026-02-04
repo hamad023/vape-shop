@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable React Server Components
-  experimental: {
-    serverActions: true,
-  },
-  // Optimize images for Vercel
+  // Optimize images
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
@@ -16,8 +12,6 @@ const nextConfig = {
   },
   // Enable strict mode for better development experience
   reactStrictMode: true,
-  // Optimize for Vercel deployment
-  output: 'standalone',
   // Enable SWC minification for faster builds
   swcMinify: true,
 };
