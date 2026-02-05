@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Static export for Netlify
+  output: 'export',
   // Optimize images
   images: {
     formats: ['image/avif', 'image/webp'],
