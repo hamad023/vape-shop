@@ -76,6 +76,14 @@ img {
   height: auto;
 }
 
+/* Responsive Image */
+.responsive-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+
 /* Container */
 .container {
   max-width: 1080px;

@@ -34,7 +34,7 @@ export default function ProductsPage() {
               </ul>
             </div>
             <div className="about-image">
-              <img src="/images/fruit-vape.jpg" alt="Fruit Vape Products" className="about-img" style={{ width: '500px', height: '300px', objectFit: 'cover' }} />
+              <img src="/images/fruit-vape.jpg" alt="Fruit Vape Products" className="about-img responsive-img" />
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function ProductsPage() {
         <div className="container">
           <div className="about-grid">
             <div className="about-image">
-              <img src="/images/menthol-flavors.jpg" alt="Menthol Vape Products" className="about-img" style={{ width: '500px', height: '300px', objectFit: 'cover' }} />
+              <img src="/images/menthol-flavors.jpg" alt="Menthol Vape Products" className="about-img responsive-img" />
             </div>
             <div className="about-text">
               <h2>Menthol Flavors</h2>
@@ -78,7 +78,7 @@ export default function ProductsPage() {
               </ul>
             </div>
             <div className="about-image">
-              <img src="/images/tobacco-flavors.jpg" alt="Tobacco Vape Products" className="about-img" style={{ width: '500px', height: '300px', objectFit: 'cover' }} />
+              <img src="/images/tobacco-flavors.jpg" alt="Tobacco Vape Products" className="about-img responsive-img" />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function ProductsPage() {
         <div className="container">
           <div className="about-grid">
             <div className="about-image">
-              <img src="/images/dessert-flavors.jpg" alt="Dessert Vape Products" className="about-img" style={{ width: '500px', height: '300px', objectFit: 'cover' }} />
+              <img src="/images/dessert-flavors.jpg" alt="Dessert Vape Products" className="about-img responsive-img" />
             </div>
             <div className="about-text">
               <h2>Dessert Flavors</h2>
